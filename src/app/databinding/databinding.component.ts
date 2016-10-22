@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'fa-databinding',
@@ -14,4 +14,7 @@ export class DatabindingComponent {
    return true;
  }
 
+ onClicked(value: string){
+   alert(value);
+ }
 }

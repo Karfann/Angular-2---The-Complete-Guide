@@ -12,3 +12,12 @@
 <p [ngStyle]="{ color: 'green'} ">
   Is this is styled?
 </p>
+<hr>
+<h3>Custom Property Binding</h3>
+<fa-property-binding [result]="10"></fa-property-binding>
+<hr>
+<h3>Custom Event Binding</h3>
+<fa-event-binding (clicked)="onClicked($event)"></fa-event-binding>
+<hr>
+<h3>Two Way Binding</h3>
+<fa-two-way-binding></fa-two-way-binding>
