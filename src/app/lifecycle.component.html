@@ -1,3 +1,4 @@
-<p>
-  lifecycle works!
-</p>
+<ng-content></ng-content>
+<hr>
+<p #boundParagraph>{{ bindable }}</p>
+<p> {{ boundParagraph.textContent }}</p>

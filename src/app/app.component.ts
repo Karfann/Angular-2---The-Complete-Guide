@@ -9,4 +9,8 @@ export class AppComponent {
   title = 'Root Component';
 
   delete = false;
+
+  test = 'Starting value';
+
+  boundValue = 1000;
 }
